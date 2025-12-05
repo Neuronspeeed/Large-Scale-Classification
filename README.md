@@ -3,6 +3,13 @@
 
 ## category-first routing architecture 
 
+Credits to humanlayer
+https://www.humanlayer.dev/
+
+
+
+![Diagram](./images/Untitled-2025-12-04-2008.png)
+
 
 ### 1. The Core Problem: Lack of Observability (Probes)
 
@@ -46,16 +53,3 @@ The architecture provides three primary control points to manipulate the system 
 If cat A and B overlap it becomes hard to pick the right ones, will not perform well.
 
 ***
-
-
-
-
-
-![Diagram](./images/Untitled-2025-12-04-2008.png)
-
-
-
-
-
-Credits to humanlayer
-
