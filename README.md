@@ -43,6 +43,8 @@ The architecture provides three primary control points to manipulate the system 
 *   **Alias Strategy:** Using an alias (like K0, K1) in the prompt instead of the raw category name allows the LLM to focus all its attention on the custom category description (Probe 3), preventing similar or confusing category names from influencing the result.
 *   **Debugging and Evals:** By tracing the system (like stepping through code), developers can quickly determine if a failure occurred in the `narrow down categories` step (embedding/Top K issue) or the `pick best category` step (LLM/prompting issue). The best evaluation method is collecting data from real user queries and seeing if the suggested action based on the classification was rejected by the user.
 
+If cat A and B overlap it becomes hard to pick the right ones, will not perform well.
+
 ***
 
 
@@ -52,8 +54,8 @@ The architecture provides three primary control points to manipulate the system 
 ![Diagram](./images/Untitled-2025-12-04-2008.png)
 
 
-If cat A and B overlap it becomes hard to pick the right ones, will not perform well.
 
 
 
+Credits to humanlayer
 
