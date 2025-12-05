@@ -1,0 +1,10 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# BAML generated (optional - some teams commit this)
+baml_client/
