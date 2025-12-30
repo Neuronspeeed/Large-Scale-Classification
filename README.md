@@ -3,9 +3,7 @@
 
 ## category-first routing architecture 
 
-Credits to humanlayer
-https://www.humanlayer.dev/
-
+ 
 
 
 ![Diagram](./images/Untitled-2025-12-04-2008.png)
@@ -51,5 +49,8 @@ The architecture provides three primary control points to manipulate the system 
 *   **Debugging and Evals:** By tracing the system (like stepping through code), developers can quickly determine if a failure occurred in the `narrow down categories` step (embedding/Top K issue) or the `pick best category` step (LLM/prompting issue). The best evaluation method is collecting data from real user queries and seeing if the suggested action based on the classification was rejected by the user.
 
 If cat A and B overlap it becomes hard to pick the right ones, will not perform well.
+
+Credits to humanlayer
+https://www.humanlayer.dev/
 
 ***
